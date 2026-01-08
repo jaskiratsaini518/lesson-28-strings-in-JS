@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>error handling</title>
+</head>
+
+<body>
+    <p id="error"></p>
+
+    <script>
+        try {
+            addalert("Welcome!");
+        } catch (err) {
+            document.getElementById("error").innerHTML = err.message;
+        }
+    </script>
+</body>
+
+</html>
